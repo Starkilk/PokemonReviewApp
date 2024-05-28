@@ -35,7 +35,7 @@ namespace PokemonReviewApp.Controllers
         [HttpGet("{pokeId}")]
         [ProducesResponseType(200, Type = typeof(Pokemon))]
         [ProducesResponseType(400)]
-        public IActionResult GetPokemons(int pokeId)
+        public IActionResult GetPokemon(int pokeId)
         {
             if (!_pokemonRepository.PokemonExist(pokeId))
                 return NotFound();
