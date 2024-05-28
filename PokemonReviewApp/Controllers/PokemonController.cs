@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using PokemonReviewApp.Dto;
 using PokemonReviewApp.Interfaces;
 using PokemonReviewApp.Models;
-using System.Collections.Generic;
+
 
 namespace PokemonReviewApp.Controllers
 {
