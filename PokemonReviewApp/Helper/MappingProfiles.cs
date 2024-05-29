@@ -17,6 +17,7 @@ namespace PokemonReviewApp.Helper
 
             CreateMap<CategoryDto, Category>();
             CreateMap<CountryDto, Country>();
+            CreateMap<OwnerDto, Owner>();
         }
     }
 }
